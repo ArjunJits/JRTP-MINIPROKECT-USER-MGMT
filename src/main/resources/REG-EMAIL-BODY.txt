@@ -1,0 +1,12 @@
+Hi {FULLNAME},<br/>
+
+Your registarion successfull. <br/>
+
+Please find your temp password below ,<br/>
+
+Temp pwd: {TEMP-PWD}  <br/>
+
+<a href="{URL}">Click here to unlock </a> <br/>
+
+Thanks,<br/>
+Arjun <br/>

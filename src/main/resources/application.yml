@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: User mangement System
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/arjun
+    username: root
+    password: test
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      "[hibernate.format_sql]": true
+  mail:
+    host: smtp.gmail.com
+    password: 
+    username: mallikpdr@gmail.com
+    port: 587
+    properties:
+       "[mail.smtp.auth]": true
+       "[mail.smtp.starttls.enable]": true
+       "[mail.smtp.timeout]": 5000
+       "[mail.smtp.connectiontimeout]": 5000
+       "[mail.smtp.writetimeout]": 5000
+      
+       
